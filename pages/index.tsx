@@ -59,8 +59,6 @@ const Home: NextPage = () => {
   <>
     <Head>
         <link rel="shortcut icon" href="/images/favicon.png" />
-        <title>Netflix</title>
-        <meta name="description" content="Netflix-clone is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries"/>
     </Head>
     <InfoModal onClose={() => {}} />
     <Navbar />

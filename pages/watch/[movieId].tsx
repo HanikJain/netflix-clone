@@ -1,5 +1,4 @@
 import React from 'react';
-import Head from "next/head"
 import {useRouter} from "next/router"
 import { AiOutlineArrowLeft } from 'react-icons/ai';
 import type { NextPage } from 'next'
@@ -15,10 +14,6 @@ const Watch:NextPage = () => {
     
     return (
         <>
-        <Head>
-            <link rel="shortcut icon" href="/images/favicon.png" />
-            <title>Netflix</title>
-        </Head>
         <div 
         className="
             h-screen
